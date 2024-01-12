@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #8c1515;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #8c1515;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="index.html">About</a>
+  <div class="subnav">
+    <button class="subnavbtn">Department<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+        <table >
+            <tr>
+                <td><a href="EmergencyMadicine.html" class="dropdown-item">Emergency Madicine</a></td>
+                <td><a href="Radiology.html" class="dropdown-item">Radio</a></td>
+                <td><a href="OperationTheater.html" class="dropdown-item">Operation Theater Complex</a></td>
+                <td><a href="Anesthesilogy.html" class="dropdown-item">Anesthesilogy</a></td>
+                <td><a href="InfectiousDiseasaes.html" class="dropdown-item">Infectious Diseasaes</a></td>
+                <td><a href="NutritionandDietetics.html" class="dropdown-item">Nutrition and Dietetics</a></td>
+                <td><a href="Psychology.html" class="dropdown-item">Psychology</a></td>
+                <td><a href="Opthalmology.html" class="dropdown-item">Opthalmology</a></td>
+                
+                
+                
+            </tr>
+            <tr>
+                <td> <a href="CardicSurgery.html" class="dropdown-item">Cardic Surgery</a></td>
+                <td><a href="ThoracicSurgery.html" class="dropdown-item">Thoracic Surgery</a></td>
+                <td><a href="NeuroSurgery.html" class="dropdown-item">Neuro Surgery</a></td>
+                <td><a href="OralMaxillofacial.html" class="dropdown-item">Oral & Maxillofacial</a></td>
+                <td><a href="Orthopedics.html" class="dropdown-item">Orthopedics</a></td>
+                <td><a href="DiagnosticLaboratory.html" class="dropdown-item">Diagnostic Laboratory</a></td>
+                <td><a href="WarehouseStore.html" class="dropdown-item">Warehouse & Store</a></td>
+                <td><a href="PlasticSurgery.html" class="dropdown-item">Plastic Surgery</a></td>
+            </tr>
+            <tr>
+                <td><a href="VascularSurgery.html" class="dropdown-item">Vascular Surgery</a></td>
+                <td><a href="InterventionalRadiology.html" class="dropdown-item">Interventional Radiology</a></td>
+            </tr>
+        </table>
+          
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#bring">Bring</a>
+      <a href="#deliver">Deliver</a>
+      <a href="#package">Package</a>
+      <a href="#express">Express</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">Link 1</a>
+      <a href="#link2">Link 2</a>
+      <a href="#link3">Link 3</a>
+      <a href="#link4">Link 4</a>
+    </div>
+  </div>
+  <a href="#contact">Contact</a>
+</div>
+
+<div style="padding:0 16px">
+  <h3>Subnav/dropdown menu inside a Navigation Bar</h3>
+  <p>Hover over the "about", "services" or "partners" link to see the sub navigation menu.</p>
+</div>
+<div class="container-fluid header bg_colors p-0 mb-5">
+  <div class="row g-0 align-items-center flex-column-reverse flex-lg-row">
+      <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
+          <h1 class="display-4 text-white mb-5">Good Health Is The Root Of All Heppiness</h1>
+          <div class="row g-4">
+              <div class="col-sm-4">
+                  <div class="border-start border-light ps-4">
+                      <h2 class="text-white mb-1" data-toggle="counter-up">123</h2>
+                      <p class="text-light mb-0">Expert Doctors</p>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="border-start border-light ps-4">
+                      <h2 class="text-white mb-1" data-toggle="counter-up">1234</h2>
+                      <p class="text-light mb-0">Medical Stuff</p>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="border-start border-light ps-4">
+                      <h2 class="text-white mb-1" data-toggle="counter-up">12345</h2>
+                      <p class="text-light mb-0">Total Patients</p>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+          <div class="owl-carousel header-carousel">
+              <div class="owl-carousel-item position-relative">
+                  <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                  <div class="owl-carousel-text">
+                      <h1 class="display-1 text-white mb-0">Cardiology</h1>
+                  </div>
+              </div>
+              <div class="owl-carousel-item position-relative">
+                  <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                  <div class="owl-carousel-text">
+                      <h1 class="display-1 text-white mb-0">Neurology</h1>
+                  </div>
+              </div>
+              <div class="owl-carousel-item position-relative">
+                  <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                  <div class="owl-carousel-text">
+                      <h1 class="display-1 text-white mb-0">Pulmonary</h1>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="inner">
+      
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SMBBIT</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!--Bootstrap CDN Links-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--End Bootstrap-->
+
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="path/to/bootstrap.min.css">
+    <script src="path/to/jquery.min.js"></script>
+    <script src="path/to/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class=" row show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-danger" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    
+
+    <!-- Topbar Start -->
+    <div style="margin-bottom: 0px; width: 100%;" class="row text-dark container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-danger me-2"></small>
+                    <small>SMBB Institute of Trauma, Karachi, Sindh</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-danger me-2"></small>
+                    <small>24/7 Open</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <a href="DoctorsPage/FindDoctors.html" class="text-dark"><small class="fa fa-stethoscope text-danger me-2"></small>
+                    <small>Find Doctor</small></a>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-danger me-2"></small>
+                    <small>+92-21-99215740</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square rounded-circle bg-white text-danger me-1" href="https://www.facebook.com/SMBBITKarachi/"><i class="fab fa-facebook-f fs-3"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-danger me-1" href="https://twitter.com/smbbitkarachi"><i class="fab fa-twitter fs-3"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-danger me-1" href=""><i class="fab fa-linkedin-in fs-3"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-danger me-0" href="404.html"><i class="fab fa-instagram fs-3"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <nav class="bg-light logoDesign">
+        <div class="container">
+            <div class="" style="width: 100%; height: 20px;">
+                <div class="col-lg-12 align-items-center">
+                    <a class="navbar-brand" href="Default.aspx">
+                        <div class=""></div>
+                        <!--<img src="http://172.26.15.62:8080/PublishingImages/Trauma-logo_Web.PNG" id="Header_imgWebLogo" style="width: 120px;" />-->
+                        <img class="logoImg" src="img/logo.png" style="width: 100%;">
+                    </a>
+                </div>
+                <!--<div class="col-lg-10 d-none d-md-block">
+                    <div>
+                        <div class="smbb">
+                            SHAHEED MOHTARMA BENAZIR BHUTTO
+                        </div>
+                        <div class="it">
+                            INSTITUTE OF TRAUMA
+                        </div>
+                    </div>
+    
+                    
+                </div>-->
+            </div>
+    
+        </div>
+    </nav>
+
+    <!-- Navbar Start -->
+<div class="row">
+    
+    <nav id="navbarCollapse" style="display: flex; justify-content: center; align-items: center;" class="col-lg-12 navbar navbar-expand{-sm|-md|-lg|-xl} mb-0 navbar-expand-lg bg_colors  sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <div class="row collapse navbar-collapse "  id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0 text-xs ">
+                    <a href="index.html" class="nav-item nav-link active custom-navbar  text-white">Home</a>
+                    <a href="about.html" class="nav-item nav-link custom-navbar  text-white">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle  text-white" data-bs-toggle="dropdown ">Departments</a>
+                        <div class="dropdown-menu dropdown rounded-0 rounded-bottom m-0">
+                            <table >
+                                <tr>
+                                    <td style="padding: 10px;"><a href="EmergencyMadicine.html" class="dropdown-item">Emergency Madicine</a></td>
+                                    <td style="padding: 10px;"><a href="Radiology.html" class="dropdown-item">Radio</a></td>
+                                    <td style="padding: 10px;"><a href="Orthopedics.html" class="dropdown-item">Orthopedics</a></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px;"> <a href="CardicSurgery.html" class="dropdown-item">Cardic Surgery</a></td>
+                                    <td style="padding: 10px;"><a href="ThoracicSurgery.html" class="dropdown-item">Thoracic Surgery</a></td>
+                                    <td style="padding: 10px;"><a href="DiagnosticLaboratory.html" class="dropdown-item">Diagnostic Laboratory</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px;"><a href="OperationTheater.html" class="dropdown-item">Operation Theater Complex</a></td>
+                                    <td style="padding: 10px;"><a href="Anesthesilogy.html" class="dropdown-item">Anesthesilogy</a></td>
+                                    <td style="padding: 10px;"><a href="WarehouseStore.html" class="dropdown-item">Warehouse & Store</a></td>
+                                </tr>
+                                <tr> 
+                                    <td style="padding: 10px;"><a href="Psychology.html" class="dropdown-item">Psychology</a></td>
+                                    <td style="padding: 10px;"><a href="Opthalmology.html" class="dropdown-item">Opthalmology</a></td> 
+                                    <td style="padding: 10px;"><a href="PlasticSurgery.html" class="dropdown-item">Plastic Surgery</a></td>
+                                      
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px;"><a href="InfectiousDiseasaes.html" class="dropdown-item">Infectious Diseasaes</a></td>
+                                    <td style="padding: 10px;"><a href="NutritionandDietetics.html" class="dropdown-item">Nutrition and Dietetics</a></td>
+                                    <td style="padding: 10px;"><a href="VascularSurgery.html" class="dropdown-item">Vascular Surgery</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px;"><a href="NeuroSurgery.html" class="dropdown-item">Neuro Surgery</a></td>
+                                    <td style="padding: 10px;"><a href="OralMaxillofacial.html" class="dropdown-item">Oral & Maxillofacial</a></td> 
+                                    <td style="padding: 10px;"><a href="InterventionalRadiology.html" class="dropdown-item">Interventional Radiology</a></td>
+                                </tr>
+                                
+                                
+                            </table>                     
+                        </div>
+                    </div>
+                    <!--
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle  text-white" data-bs-toggle="dropdown ">Events</a>
+                        <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                            <a href="NewsEvents/LarkanoEvents.html" class="dropdown-item">Larkana</a>
+                            <a href="NewsEvents/KarachiEvents.html" class="dropdown-item">Karachi</a>    
+                        </div>
+                    </div>-->
+                    <a href="tenders.html" class="nav-item nav-link custom-navbar  text-white">Tenders</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle  text-white" data-bs-toggle="dropdown ">Research & Development</a>
+                        <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                            <table>
+                                <tr>
+                                    <td style="padding: 10px;"><a href="researchAndDevelopment/ResearchToolkitRegistration.html" class="dropdown-item">Research Toolkit and Techniques Registration</a></td>
+                                    <td style="padding: 10px;"><a href="researchAndDevelopment/DepartmentofIntro.html" class="dropdown-item">Development Introduction</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px;"><a href="#" class="dropdown-item">Checklist for ERC Application</a></td>
+                                    <td style="padding: 10px;"><a href="#" class="dropdown-item">Exemption form for (Retrospective Studies)</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px;"><a href="#" class="dropdown-item">Informed Consent Form Research (Template)</a>  </td>
+                                    <td style="padding: 10px;"><a href="#" class="dropdown-item">Ethics Review Committee(ERC) Application Form</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px;"><a href="#" class="dropdown-item">Medical Records Request Form For Research</a> </td>
+                                    <td style="padding: 10px;"><a href="#" class="dropdown-item">Research Proposal (Template)</a> </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px;"><a href="#" class="dropdown-item">Terms of References (TORs) ERC SMBBIT</a> </td>
+                                </tr>
+                            </table>
+                            
+    
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle  text-white" data-bs-toggle="dropdown ">Careers</a>
+                        <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                            <a href="Career/PGMeritList.html" class="dropdown-item">PG Final Merit List</a>
+                            <a href="feature.html" class="dropdown-item">Jobs</a>
+                            <a href="team.html" class="dropdown-item">Post Graduations</a>
+                            <a href="appointment.html" class="dropdown-item">Internships</a>
+                            
+                        </div>
+                    </div>
+                    <a href="newslatters.html" class="nav-item nav-link custom-button  text-white">Newsletter</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle  text-white" data-bs-toggle="dropdown ">Admissions</a>
+                        <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                            <a href="feature.html" class="dropdown-item">Feature</a>
+                            <a href="team.html" class="dropdown-item">Doctors</a>
+                            <a href="appointment.html" class="dropdown-item">Appointment</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            
+                        </div>
+                    </div>
+                    <a href="" class="nav-item nav-link text-white">Download</a>
+                    <a href="" class="nav-item nav-link text-white">Pak Traumacon</a>
+                </div>
+                
+            </div>
+        </div>
+        
+    </nav>
+</div>
+
+    <!-- Navbar End -->
+
+    <!--Doctors Page Start-->
+
+    <div class="container">
+        
+    </div>
+
+    <!--Doctors Page End-->
+
+    <!-- Header Start -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="http://202.69.55.91:8080/PublishingImages/header2.png" width="100%" height="100%" alt="">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 style="color: #fff;">Every Day or life-changing care.</h1>
+                <p>We're here when you need us.</p>
+                <p><a class="btn btn-lg btn-danger" href="#">Find out More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            
+            <img src="http://202.69.55.91:8080/PublishingImages/header1.png" width="100%" height="100%" alt="">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>We Care About<br>Your Health</h1>
+                <p>Your health is our top Priority with Comprehensive and Free Health</p>
+                <p><a class="btn btn-lg btn-danger" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            
+            <img src="http://202.69.55.91:8080/PublishingImages/6666.jpg" width="100%" height="100%" alt="">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>We Care About<br>Your Health</h1>
+                <p>Your health is our top Priority with Comprehensive and Free Health</p>
+                <p><a class="btn btn-lg btn-danger" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            
+            <img src="http://202.69.55.91:8080/PublishingImages/9.jpg" width="100%" height="100%" alt="">
+            <div class="container row">
+              <div class="carousel-caption text-start">
+                <h1>Our Promise<br>For a New Kind Of Caring.</h1>
+                <p>Everyday we bring Hope and Smile.</p>
+                <p><a class="btn btn-lg btn-danger" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            
+            <img src="http://202.69.55.91:8080/PublishingImages/6666.jpg" width="100%" height="100%" alt="">
+            <div class="container row">
+              <div class="carousel-caption text-start">
+                <h1>One more for good measure.</h1>
+                <p>Some representative placeholder content for the third slide of this carousel.</p>
+                <p><a class="btn btn-lg btn-danger" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- Header End -->
+
+    <!--donate carco-->
+    
+    <section class="container">
+        
+        <div class="mt-4 row active-with-click">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <article class="material-card Red">
+                    <h2>
+                        <span>Donate For Health</span>
+                        <strong>
+                            <i class="bi bi-clipboard2-pulse fs-1"></i>
+                            <a class="btn btn-outline-light" style="font-size: 15px;" href="">Donate </a>
+                        </strong>
+                        
+                    </h2>
+                    <div class="mc-content">
+                        <div class="img-container">
+                            <img class="img-responsive" src="img/female-patient-resting-hospital-bed_33886-101.webp">
+                        </div>
+                        <div class="mc-description">
+                            About <br> Info <br> Instructions <br> Etc ...
+                        </div>
+                    </div>
+                    <a class="mc-btn-action">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <div class="mc-footer">
+                        <h4>
+                            Something
+                        </h4>
+                        <a class="fa fa-fw fa-facebook"></a>
+                        <a class="fa fa-fw fa-twitter"></a>
+                        <a class="fa fa-fw fa-linkedin"></a>
+                        <a class="fa fa-fw fa-google-plus"></a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <article class="material-card Red">
+                    <h2>
+                        <span>Donate For Building</span>
+                        <strong>
+                            <i class="bi bi-hospital fs-1"></i>
+                            <a class="btn btn-outline-light" style="font-size: 15px;" href="">Donate </a>
+                        </strong>
+                    </h2>
+                    <div class="mc-content">
+                        <div class="img-container">
+                            <img class="" src="http://202.69.55.91:8080/PublishingImages/header2.png">
+                        </div>
+                        <div class="mc-description">
+                            About <br> Info <br> Instructions <br> Etc ...
+                        </div>
+                    </div>
+                    <a class="mc-btn-action">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <div class="mc-footer">
+                        <h4>
+                            Something
+                        </h4>
+                        
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <article class="material-card Red">
+                    <h2>
+                        <span>Ways to Donate</span>
+                        <strong>
+                            <i class="bi bi-cart-plus-fill fs-1"></i>
+                            <a class="btn btn-outline-light" style="font-size: 15px;" href="">Learn Now</a>
+                        </strong>
+                    </h2>
+                    <div class="mc-content">
+                        <div class="img-container">
+                            <img class="img-responsive" src="img/2018-08-27-PHOTO-00000007.jpg">
+                        </div>
+                        <div class="mc-description">
+                            About <br> Info <br> Instructions <br> Etc....
+                        </div>
+                    </div>
+                    <a class="mc-btn-action">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    
+                </article>
+            </div>
+            
+        </div>
+    </section>
+
+    <!--end donation car-->
+
+    <!-- Donation Start -->
+  
+    
+    <!-- Donation End -->
+
+
+    <!--Counter Start-->
+    
+    <div class="container-fluid mt-5 row" style="margin-left: 100px;">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="counter">
+                    <div class="counter-icon">
+                        <i class="fa fa-globe"></i>
+                    </div>
+                    <h3>Year of Service</h3>
+                    <span class="counter-value">10</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="counter orange">
+                    <div class="counter-icon">
+                        <i class="fa fa-rocket"></i>
+                    </div>
+                    <h3>Patient Benifitted</h3>
+                    <span class="counter-value">9999</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="counter">
+                    <div class="counter-icon">
+                        <i class="fa fa-globe"></i>
+                    </div>
+                    <h3>Cost to Patient & Their Family</h3>
+                    <span class="counter-value">988</span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!--Counter End-->
+
+    <!--news and Updates Testimonial-->
+
+    <div class="row container-fluid bg_colors overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <h2 class="display-5 text-light" style="padding-left: 100px;">Doctors and Patient Testimonial</h2>
+                    <div class="container1" style="margin-left: 60px;">
+                        <!--<div class="box">
+                            
+                        </div>-->
+                        <div class="box overlay">
+                            <!-- Buttons -->
+                            <button class="button btn-danger" style="margin-left: 210px; margin-top: 14px; margin-right: 30px; border-radius: 12px; padding: 8px;box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);" onclick="showDiv('div1')">Patient's Story</button>
+                            <button class="button btn-danger" style="margin-top: 14px; margin-right: 30px; border-radius: 12px; padding: 8px;box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);" onclick="showDiv('div2')">Doctor's Speaks</button>
+                            <!--<button class="button btn-danger" style="margin-top: 14px; margin-right:0px; border-radius: 12px; padding: 8px;box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);" onclick="showDiv('div3')">Events</button>-->
+
+                            <!-- Content Divs -->
+                            <div id="div1" class="content pt-5">
+                                <div id="videoCarousel" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" style="justify-content: center; padding-left: 40px; padding-right: 40px;">
+                                      <!-- YouTube Video Slides -->
+                                      <div class="carousel-item active">
+                                        <iframe  width="100%" height="400"  src="https://www.youtube-nocookie.com/embed/ieSTLpT4SJQ?si=y9nxzSaIlY1Kmi3X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/N4hjXyNoedE?si=AkhIh8pv-OMxW1y9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                      </div>
+                                      <!-- Add more slides as needed with different YouTube video IDs -->
+                                    </div>
+                                    <!-- Add Previous and Next Buttons -->
+                                    
+                                    <a class="carousel-control-prev" style="padding-right: 50px; padding-bottom: 70px;"  href="#videoCarousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                      <a class="carousel-control-next" style="padding-left: 50px; padding-bottom: 70px;" href="#videoCarousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+                                  </div>
+                            </div>
+                            <div id="div2" class="content">
+                                <div class="pt-4 card rounded-3 bg_colors" style="width: 80%; border-radius: 17px; margin-left: 60px; height: 370px; margin-top: 50px; box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);">
+                                    <div class="card-body p-4 text_color" style="color: white;">
+                          
+                                      <div class="d-flex justify-content-center mb-4">
+                                        <img src="img/gettyimages-1191945461-612x612.jpg"
+                                          class="rounded-circle shadow-1-strong" width="100" height="100" />
+                                      </div>
+                                      <figure class="text-center mb-0">
+                                        <blockquote class="blockquote mb-4">
+                                          <p>
+                                            <span class="font-italic ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                                              sint nesciunt ad itaque aperiam expedita officiis incidunt minus facere molestias
+                                              inventore.</span>
+                                          </p>
+                                        </blockquote>
+                                        <figcaption class="blockquote-footer mb-0 text-light">
+                                          Kate Williams in <cite title="Source Title">Vogue</cite>
+                                        </figcaption>
+                                      </figure>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div id="div3" class="content">This is the content of Div 3.</div>
+                                
+                                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/Canon EOS 5D Mark III163.JPG" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--End section of news and updates-->
+
+
+     <!-- Service Start -->
+     <div class="container-xxl py-5 container-fluid">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Services</p>
+                <h1 class="text_color" >Health Care Solutions</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-heartbeat text-danger fs-1"></i>
+                        </div>
+                        <h4 style="font-size: 18px;" class="mb-3 text_color">Cardiology</h4>
+                        <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                        <a class="btn" href="CardicSurgery.html" style="font-size: 14px;" href=""><i class="fa fa-plus text-danger me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-x-ray text-danger fs-1"></i>
+                        </div>
+                        <h4 style="font-size: 18px;" class="mb-3 text_color">Operation Theater Complex</h4>
+                        <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                        <a class="btn" href="OperationTheater.html" style="font-size: 14px;" href=""><i class="fa fa-plus text-danger me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-brain text-danger fs-1"></i>
+                        </div>
+                        <h4 style="font-size: 18px;" class="mb-3 text_color">Neuro Surgery</h4>
+                        <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                        <a class="btn" href="NeuroSurgery.html" style="font-size: 14px;" href=""><i class="fa fa-plus text-danger me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-wheelchair text-danger fs-1"></i>
+                        </div>
+                        <h4 style="font-size: 18px;" class="mb-3 text_color">Orthopedics</h4>
+                        <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                        <a class="btn" href="Orthopedics.html" style="font-size: 14px;" href=""><i class="fa fa-plus text-danger me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-tooth text-danger fs-1"></i>
+                        </div>
+                        <h4 style="font-size: 18px;" class="mb-3 text_color">Emergency Madicine</h4>
+                        <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                        <a class="btn" href="EmergencyMadicine.html" style="font-size: 14px;" href=""><i class="fa fa-plus text-danger me-3"></i>Read More</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-vials text-danger fs-1"></i>
+                        </div>
+                        <h4 style="font-size: 18px;" class="mb-3 text_color">Laboratory</h4>
+                        <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                        <a class="btn" href="DiagnosticLaboratory.html" style="font-size: 14px;" href=""><i class="fa fa-plus text-danger me-3"></i>Read More</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!--News updates-->
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">News Section</p>
+                <h1 style="font-size: 28px;" class="text_color">News and Updates</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card" style="width: 25rem;">
+                        <img class="card-img-top" src="img/WhatsApp Image 2023-08-15 at 9.41.43 AM (1).jpeg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 style="font-size: 18px;" class="card-title text_color">Handing Over & Taking Over Ceremony</h5>
+                          <p class="card-text text-dark">Handing Over & Taking over Ceremony for Establishment os Shaheed Benazir Bhutto Trauma &...</p>
+                          <a href="#" style="font-size: 14px;" class="btn text-white btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card" style="width: 25rem;">
+                        <img class="card-img-top" src="img/220320232.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 style="font-size: 18px;" class="card-title text_color">Orthopantomogram Machine and Trauma BAY IV Inaugration</h5>
+                          <p class="card-text text-dark">SMBB institute of Trauma is pleased to announce the inauguration...</p>
+                          <a href="#" style="font-size: 14px;" class="btn text-white btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card" style="width: 25rem;">
+                        <img class="card-img-top" src="img/WhatsApp Image 2023-08-15 at 9.41.43 AM (1).jpeg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 style="font-size: 18px;" class="card-title text_color">Handing Over & Taking Over Ceremony</h5>
+                          <p class="card-text text-dark">Handing Over & Taking over Ceremony for Establishment os Shaheed Benazir Bhutto Trauma &...</p>
+                          <a href="#" style="font-size: 14px;" class="btn text-white btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card" style="width: 25rem;">
+                        <img class="card-img-top" src="img/220320232.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 style="font-size: 18px;" class="card-title text_color">Orthopantomogram Machine and Trauma BAY IV Inaugration</h5>
+                          <p class="card-text text-dark">SMBB institute of Trauma is pleased to announce the inauguration...</p>
+                          <a href="#" style="font-size: 14px;" class="btn text-white btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    
+    
+    <!---->
+   
+
+    <!--IPGME Start
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Programs</p>
+                <h1 class="text_color">Programs</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 wow fadeInUp"data-wow-delay="0.1s">
+                    <div class="card" style="width: 30rem;">
+                        <img class="card-img-top" src="img/about-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title text_color">Undergraduate Programs</h5>
+                          <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn text-white btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card" style="width: 30rem;">
+                        <img class="card-img-top" src="img/about-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title text_color">Post Graduate Programs</h5>
+                          <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn text-white btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card" style="width: 30rem;">
+                        <img class="card-img-top" src="img/about-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title text_color">Diploma Programs</h5>
+                          <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn text-white btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card" style="width: 30rem;">
+                        <img class="card-img-top" src="img/about-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title text_color">Certificate Programs</h5>
+                          <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn text-white btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+  
+    End IPGME-->
+
+
+
+    <!-- Team Start 
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Partners</p>
+                <h1 style="font-size: 28px;" class="text_color">Our Partners</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5 style="font-size: 18px;" class="text_color">Partner Name</h5>
+                            <p class="text_color">Something</p>
+                            <div class="team-social text-center">
+                                <a class="custom-button" href=""><i class="fab fa-facebook-f text_color"></i></a>
+                                <a class="custom-button" href=""><i class="fab fa-twitter text_color"></i></a>
+                                <a class="custom-button" href=""><i class="fab fa-instagram text_color"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5 style="font-size: 18px;" class="text_color">Partner Name</h5>
+                            <p class="text_color">Something</p>
+                            <div class="team-social text-center">
+                                <a class="custom-button" href=""><i class="fab fa-facebook-f text_color"></i></a>
+                                <a class="custom-button" href=""><i class="fab fa-twitter text_color"></i></a>
+                                <a class="custom-button" href=""><i class="fab fa-instagram text_color"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                
+            </div>
+        </div>
+    </div>
+    Team End -->
+
+    <!--Our Partners Start-->
+    <section class="section section-default mt-none mb-none">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Partners</p>
+                <h1 style="font-size: 28px;" class="text_color">Our Partners</h1>
+            </div>
+        <strong>
+        <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="square-holder">
+        <img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/solar-communications-200.png" />
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="square-holder">
+        <img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/cbf-200.png" />
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="square-holder">
+        <img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/gxs-200.png" />
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="square-holder">
+        <img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/jpr-200.png" />
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="square-holder">
+        <img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/talk-internet-200.png" />
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="square-holder">
+        <img alt="" src="https://www.pmits.co.uk/Portals/0/img/opera3_logo.png" />
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="square-holder">
+        <img alt="" src="https://www.pmits.co.uk/Portals/0/pegasus-logo.png" />
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="square-holder">
+        <img alt="" src="https://www.pmits.co.uk/Portals/0/sage business partner.jpg" />
+        </div>
+        </div>
+        </div>
+        </strong>
+        </div>
+        </section>
+    <!-- End Partners Section-->
+
+    <!--Newsletters Subscription-->
+    <div class=" row d-flex justify-content-center align-items-center rows" style="margin-top: 0px; margin-bottom: 0px; border: none;">
+
+        <div class="col-md-12">
+
+
+            <div class="card" style="border: none; margin-top: 0;">
+                
+                <h5 class="card-title text_color" style="margin-left: 450px; font-size: 27px;">Newsletter subscription</h5>
+
+                <div class="text-center">
+
+                    <img src="https://i.imgur.com/Dh7U4bp.png" width="200">
+                    <span class="d-block mt-0" style="font-size: 15px;">Subscribe to our newsletter in order to .......... <br> Thanks</span>
+
+                    <div class="mx-5">
+
+
+                        <div class="position-relative mx-auto" style="max-width: 600px;">
+                            <input style="font-size: 18px;" class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button style="font-size: 16px;" type="button" class="btn btn-danger text-white py-1 position-absolute top-0 end-0 mt-1 me-2">SignUp</button>
+                        </div>
+                        
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+
+
+
+        
+    </div>
+    <!--End Newsletters-->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg_colors text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 style="font-size: 18px;" class="text-light mb-4">Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Trauma Center, Saddar, Karachi</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social rounded-circle btn-danger text_color" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle btn-danger text_color" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle btn-danger text_color" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle btn-danger text_color" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 style="font-size: 18px;" class="text-light mb-4">Services</h5>
+                    <a class="btn btn-link text-white" href="">Cardiology</a>
+                    <a class="btn btn-link text-white" href="">Pulmonary</a>
+                    <a class="btn btn-link text-white" href="">Neurology</a>
+                    <a class="btn btn-link text-white" href="">Orthopedics</a>
+                    <a class="btn btn-link text-white" href="">Laboratory</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 style="font-size: 18px;" class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link text-white" href="">About Us</a>
+                    <a class="btn btn-link text-white" href="">Contact Us</a>
+                    <a class="btn btn-link text-white" href="">Our Services</a>
+                    <a class="btn btn-link text-white" href="">Terms & Condition</a>
+                    <a class="btn btn-link text-white" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 style="font-size: 18px;" class="text-light mb-4">Newsletter</h5>
+                    <p>Why you need to Subscribe</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-danger text-white py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">SMBBIT</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-danger btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js">
+        
+    </script>
+    <script>
+
+$(function() {
+        $('.material-card > .mc-btn-action').click(function () {
+            var card = $(this).parent('.material-card');
+            var icon = $(this).children('i');
+            icon.addClass('fa-spin-fast');
+
+            if (card.hasClass('mc-active')) {
+                card.removeClass('mc-active');
+
+                window.setTimeout(function() {
+                    icon
+                        .removeClass('fa-arrow-left')
+                        .removeClass('fa-spin-fast')
+                        .addClass('fa-bars');
+
+                }, 800);
+            } else {
+                card.addClass('mc-active');
+
+                window.setTimeout(function() {
+                    icon
+                        .removeClass('fa-bars')
+                        .removeClass('fa-spin-fast')
+                        .addClass('fa-arrow-left');
+
+                }, 800);
+            }
+        });
+    });
+
+        function showDiv(divId) {
+            // Hide all content divs
+            var contentDivs = document.querySelectorAll('.content');
+            contentDivs.forEach(function(div) {
+            div.style.display = 'none';
+            });
+
+            // Show the selected div
+            var selectedDiv = document.getElementById(divId);
+            if (selectedDiv) {
+        selectedDiv.style.display = 'block';
+            }
+        }
+
+
+
+        $(document).ready(function(){
+        $('.counter-value').each(function(){
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        },{
+            duration: 3500,
+            easing: 'swing',
+            step: function (now){
+                $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+        });
+
+      </script>
+</body>
+
+</html>
